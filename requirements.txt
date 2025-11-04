@@ -1,6 +1,12 @@
+Run this in your project folder (inside venv):
+pip freeze > requirements.txt
+
+                              OR
+
 langchain>=0.0.328
 openai>=0.27.0
 faiss-cpu>=1.7.4
 tqdm
 python-dotenv
 pandas
+
