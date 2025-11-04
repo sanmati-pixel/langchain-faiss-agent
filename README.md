@@ -3,6 +3,7 @@
 
 This project demonstrates how to build a local AI Agent capable of reading .txt documents and answering questions using LangChain, FAISS, and Hugging Face embeddings.
 
+_______________________________________________________________________________________
 🚀 Features
 
 ✅ Loads .txt documents from a local folder
@@ -11,6 +12,8 @@ This project demonstrates how to build a local AI Agent capable of reading .txt 
 ✅ Stores and retrieves context using FAISS vector DB
 ✅ Generates responses with OpenAI / HuggingFace models
 ✅ Fully local & version-compatible pipeline
+
+_______________________________________________________________________________________
 
 🧩 Architecture
 User Query
@@ -21,8 +24,10 @@ Context Sent to LLM (OpenAI or HF)
    ↓
 Final Response
 
+_______________________________________________________________________________________
 
 🛠️ Setup Instructions
+
 1. Clone Repository
 git clone https://github.com/<your-username>/AI-Agent.git
 cd AI-Agent
@@ -44,6 +49,8 @@ python build_index_small_chunks.py
 6. Run the AI Agent
 python agent.py
 
+______________________________________________________________________________________
+
 🧠 Skills Demonstrated
 
 LangChain 🧩
@@ -58,6 +65,8 @@ Debugging & Version Management ⚙️
 
 Local AI Infrastructure Design 💡
 
+______________________________________________________________________________________
+
 ⚙️ Tech Stack
 Component	Library
 Language	Python
@@ -65,6 +74,8 @@ LLM	OpenAI GPT / HuggingFace
 Embeddings	all-MiniLM-L6-v2
 Vector Store	FAISS
 Framework	LangChain
+______________________________________________________________________________________
+
 🧰 Folder Structure
 AI-Agent/
 ├── data/ (your text files)
@@ -75,14 +86,7 @@ AI-Agent/
 ├── README.md
 └── .gitignore
 
-📸 Screenshots (Optional)
-
-You can add a screenshot of:
-
-Terminal showing successful index creation
-
-Your AI agent giving an answer
-(using Markdown: ![alt text](screenshot.png))
+______________________________________________________________________________________
 
 🏆 Author
 
